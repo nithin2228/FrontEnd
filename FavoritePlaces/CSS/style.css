@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+width: 100%;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center; 
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(200, 214, 215, 0.96);
+    
+}
+.navbar .logo{
+display: flex;
+align-items: center;
+width: 200px;
+justify-content:space-evenly;
+}
+.navbar .links ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 700px;
+}
+.logo h1{
+    text-align: center;
+}
+.links ul li a{
+    text-decoration: none;
+    display: flex;  
+}
+.links ul{
+    display: flex;
+    margin-left: 450px;
+    justify-content: space-evenly;
+}
+.Explore{
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpapercave.com/wp/wp10257499.jpg) center/cover;
+    background-clip: content-box;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.data{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius:90px;
+}
+.data button{
+    padding: 10px;
+    border-radius: 20px;
+}
+#F{
+    text-align: center;
+    padding-top: 75px;
+}
+.famous-p .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns */
+    grid-gap: 20px;
+    padding-left: 60px;
+   
+}
+.famous-p .card src{
+    border-radius: 25px;
+
+}
+.famous-p .card .cards img{
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+}
+#H{
+    text-align: center;
+   padding-top: 75px;
+}
+.Hotels .Hotelss{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 65px;
+    padding-top: 30px;
+    gap: 20px;
+    
+}
+.Hotels .Hotelss .car img{
+    border-radius: 20px;
+}
+.person img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.person{
+    display: flex;
+    align-items: center;
+   padding-top: 100px;
+}
+#pp{
+    width:300px;
+    height: 100px;
+}
+.Feedback .feed{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 50px;
+   padding-bottom: 100px;
+}
+#T{
+    text-align: center;
+   padding-top: 75px;
+  
+}
+
+.social ul{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    list-style: none;
+    
+}
+.social ul i{
+    width:25px;
+    height: 40px;
+    font-size:30px;
+}
+.social ul li a{
+    text-decoration: none;
+    color: #000;
+}
+#A{
+    text-align: center;
+   padding-top: 75px;
+   
+}
+.main .con{
+    background-color: bisque;
+    height: 82vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cf{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input,textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.cf h2{
+    text-align: center;
+}
+button{
+    background: rgba(0, 229, 255, 0.679);
+    color: rgba(255, 255, 255, 0.816);
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+}
+button:hover{
+    background: #348F50;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+}
+.cf{
+    width=700px
+    height: 200px;
+}
+.con{
+  display: flex;
+  justify-content: ;
+}
+.container{
+    font-family: "outfit";
+    background: linear-gradient(#ffdad5,#fff7f9);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 500px;
+    
+}
+.left-title h2{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px; 
+    margin-top: 5px;
+}
+.left-title hr{
+    border: none;
+    width: 120px;
+    height:5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-left input{
+    padding: 10px;
+}
+.contact-right img{
+    width: 450px;
+}
+.continput{
+    border-radius: 10px;
+}
+.continput1{
+    border-radius: 10px;
+}
+.contact-left .continput1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
